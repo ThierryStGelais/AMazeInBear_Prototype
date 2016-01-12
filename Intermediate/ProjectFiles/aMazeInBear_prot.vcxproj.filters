@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\aMazeInBear_prot.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{8978F85A-7763-43FF-9FB8-FBA52C7263AF}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\aMazeInBear_prot.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\aMazeInBear_protEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{4C8CF4FF-CEBE-437B-9263-B18BE6E4E59F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\aMazeInBear_prot">
+			<UniqueIdentifier>{41CE250C-B158-4A9D-A8B6-61E8F17AE888}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\aMazeInBear_prot\aMazeInBear_prot.Build.cs">
+			<Filter>Source\aMazeInBear_prot</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\aMazeInBear_prot\aMazeInBear_prot.cpp">
+			<Filter>Source\aMazeInBear_prot</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\aMazeInBear_prot\aMazeInBear_prot.h">
+			<Filter>Source\aMazeInBear_prot</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\aMazeInBear_prot\aMazeInBear_protCharacter.cpp">
+			<Filter>Source\aMazeInBear_prot</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\aMazeInBear_prot\aMazeInBear_protCharacter.h">
+			<Filter>Source\aMazeInBear_prot</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\aMazeInBear_prot\aMazeInBear_protGameMode.cpp">
+			<Filter>Source\aMazeInBear_prot</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\aMazeInBear_prot\aMazeInBear_protGameMode.h">
+			<Filter>Source\aMazeInBear_prot</Filter>
+		</ClInclude >
+		<Filter Include="Source\aMazeInBear_prot\Resources">
+			<UniqueIdentifier>{619A798E-9EC1-42AC-A16C-D4A040887513}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\aMazeInBear_prot\Resources\Windows">
+			<UniqueIdentifier>{60DFBF6D-3825-48EF-A92B-4B5202CFFD5D}</UniqueIdentifier>
+		</Filter>
+		<ResourceCompile Include="..\..\Source\aMazeInBear_prot\Resources\Windows\aMazeInBear_prot.rc">
+			<Filter>Source\aMazeInBear_prot\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>
